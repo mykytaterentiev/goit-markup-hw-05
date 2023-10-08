@@ -656,7 +656,6 @@ button {
 } 
 
 .modal-textarea {
-    margin-bottom: 16px;
     font-size: 12px;
     line-height: 1.17;
     padding: 8px 16px;
@@ -670,6 +669,7 @@ button {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
     outline: transparent;
+    margin-bottom: 16px;
     }
 
     .modal-textarea:focus {
@@ -705,7 +705,6 @@ button {
 
 .terms_link {
     margin-bottom: 24px;
-    color: #4d5ae5;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -713,6 +712,7 @@ button {
     line-height: 16px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
+    color: #4d5ae5;
 }
 
 .checkbox-wrapper {
